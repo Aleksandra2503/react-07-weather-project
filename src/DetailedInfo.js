@@ -28,7 +28,8 @@ export default function DetailedInfo(props) {
   }, [props.city]);
 
   function countHourlyInfo(lat, lon) {
-    const APIkey = "017d56650cd168d68067850318775d43";
+    const APIkey = "6f2c8d8e771e0ede0a15520e397b527c";
+    // const APIkey = "017d56650cd168d68067850318775d43"; - не наш
     let ApiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&exclude=hourly&appid=${APIkey}&units=metric`;
     axios.get(ApiUrl).then(hourlyInfo);
   }
