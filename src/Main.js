@@ -115,9 +115,9 @@ export default class Main extends Component {
             </div>
           </div>
           <footer>
-            This project was coded by Kateryna Nykonenko and is{" "}
+            This project was coded by Murashko Oleksandra and is{" "}
             <a
-              href="https://github.com/Kateryna29/react-app-week5"
+              href="https://github.com/Aleksandra2503/react-07-weather-project"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -125,7 +125,7 @@ export default class Main extends Component {
             </a>{" "}
             and{" "}
             <a
-              href="https://boisterous-beijinho-95bd37.netlify.app/"
+              href="https://react-murashko-weather.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
