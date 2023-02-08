@@ -6,7 +6,7 @@
 }
 
 .App {
-  width: 700px;
+  width: 850px;
   margin: 30px auto;
   height: auto;
 }
@@ -14,7 +14,7 @@
 .App .container {
   border: solid;
   border-width: medium;
-  border-color: var(--main-color);
+  border-color: var(--color-b);
   border-radius: 4px;
   padding: 10px;
   height: auto;

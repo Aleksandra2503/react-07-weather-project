@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-import snowman from "./snowman.gif";
+// import snowman from "./snowman.gif";
 
 import HourlyFormatForecast from "./HourlyFormatForecast";
 
@@ -62,7 +62,7 @@ export default function DetailedInfo(props) {
           </div>
         </div>
         <div className="text-center">
-          <img src={snowman} alt="GIF" className="cartoon" />
+          {/* <img src={snowman} alt="GIF" className="cartoon" /> */}
         </div>
       </div>
     );
