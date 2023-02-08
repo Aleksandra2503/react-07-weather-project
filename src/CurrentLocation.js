@@ -5,7 +5,7 @@ export default class CurrentLocation extends Component {
   static propTypes = { refresh: PropTypes.func.isRequired };
 
   _click(event) {
-    navigator.geolocation.getCurrentPosition(position => {
+    navigator.geolocation.getCurrentPosition((position) => {
       this.props.refresh(position.coords.latitude, position.coords.longitude);
     });
   }
@@ -13,10 +13,11 @@ export default class CurrentLocation extends Component {
   render() {
     return (
       <button
-        className="float-left btn btn-success"
-        onClick={event => this._click(event)}
+        className="float-left btn btn-outline-primary"
+        title="Current location"
+        onClick={(event) => this._click(event)}
       >
-        Current
+        🏠
       </button>
     );
   }
