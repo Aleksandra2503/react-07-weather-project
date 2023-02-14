@@ -1,0 +1,165 @@
+:root {
+  --main-color: #10795a;
+  --secondary-color: rgba(54, 169, 135, 0.8);
+  --main-text-color: #ffffff;
+  --second-main-color: #212529;
+}
+
+.App {
+  width: 850px;
+  margin: 30px auto;
+  height: auto;
+}
+
+.App .container {
+  border: solid;
+  border-width: medium;
+  border-color: var(--color-b);
+  border-radius: 4px;
+  padding: 10px;
+  height: auto;
+  background-color: var(--secondary-color);
+}
+.TempValue {
+  font-size: 68px;
+  position: relative;
+  top: 35px;
+}
+.unit {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+}
+.DetailedInfo {
+  font-size: 22px;
+}
+.DayForecast {
+  position: relative;
+  top: -115px;
+}
+.DayForecast li .row {
+  font-size: 14px;
+}
+.DF {
+  width: 150px;
+  color: var(--main-text-color);
+  padding-left: 10px;
+  background-color: var(--main-color);
+  border-radius: 8px;
+}
+.NameDayForecast {
+  margin: 8px;
+  font-weight: bold;
+}
+.DayForecast li .row .col img {
+  width: 70px;
+  font-weight: bold;
+}
+#maxTemp {
+  font-weight: bold;
+}
+li {
+  list-style: none;
+  font-size: 22px;
+}
+
+.Information {
+  margin-top: 100px;
+  height: auto;
+}
+.Information ul {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.DescriptionInfo {
+  text-transform: capitalize;
+}
+
+#MainIcon img {
+  width: 200px;
+}
+
+.DescriptionInfo,
+.DateInfo {
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+.CityName {
+  font-size: 58px;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  color: var(--main-text-color);
+}
+
+.HF {
+  padding-left: 15px;
+}
+
+.cartoon {
+  width: 400px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 360px;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .cartoon {
+    display: none;
+  }
+
+  #MainIcon img {
+    width: 100px;
+  }
+  .TempValue {
+    position: relative;
+    left: 30px;
+    top: -5px;
+  }
+  .DayForecast {
+    position: relative;
+    top: -25px;
+    left: -10px;
+  }
+  .p-5 {
+    padding: 0 auto;
+  }
+
+  .DayForecast li .row {
+    font-size: 12px;
+  }
+  .DF {
+    width: 100px;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+  .NameDayForecast {
+    margin: 3px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .DayForecast li .row .col img {
+    width: 50px;
+    text-align: center;
+  }
+  #maxTemp {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .Information .row .col button {
+    margin-top: 10px;
+  }
+  .CityName {
+    font-size: 28px;
+  }
+  .HF .row .col {
+    font-size: 12px;
+  }
+}
