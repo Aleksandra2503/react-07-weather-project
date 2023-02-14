@@ -10,7 +10,7 @@ function App() {
 <footer className='text-center'>
 This project was coded by{" "}
           <a
-            href="https://www.instagram.com/khrystyna.dev/"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
